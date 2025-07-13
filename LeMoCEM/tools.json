@@ -1,0 +1,20 @@
+[
+    {
+      "type": "function",
+      "function": {
+        "name": "send_cost_lambda",
+        "description": "Return the selected cost evaluation lambda function",
+        "parameters": {
+          "type": "object",
+          "properties": {
+            "lambda_code": {
+              "type": "string",
+              "description": "Lambda function to calculate cost and time"
+            }
+          },
+          "required": ["lambda_code"]
+        }
+      }
+    }
+  ]
+  
